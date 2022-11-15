@@ -9,3 +9,5 @@ This is a Dockerfile which integrates the Facerecognition App with its dependenc
 - install one model inside the container `./occ face:setup -m 1`
 - and set the maximum memory you want to use `./occ face:setup --memory 2048M`
 - run the background job `./occ face:background_job`
+
+More information: https://github.com/matiasdelellis/facerecognition
