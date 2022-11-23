@@ -11,5 +11,3 @@ This is a Dockerfile which integrates the Facerecognition App with its dependenc
 - run the background job `./occ face:background_job`
 
 More information: https://github.com/matiasdelellis/facerecognition
-
-TODO: add ffmpeg
