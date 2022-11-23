@@ -42,7 +42,7 @@ FROM nextcloud:apache
 # Install dependencies to image
 
 RUN apt-get update ; \
-    apt-get install -y libopenblas-base vim
+    apt-get install -y libopenblas-base vim ffmpeg
 
 # Install dlib and PDlib to image
 
