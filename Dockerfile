@@ -63,6 +63,8 @@ RUN echo "extension=bz2.so" > /usr/local/etc/php/conf.d/bz2.ini
 RUN echo memory_limit=2048M > /usr/local/etc/php/conf.d/memory-limit.ini
 RUN rm /usr/local/etc/php/conf.d/nextcloud.ini
 RUN echo memory_limit=2048M > /usr/local/etc/php/conf.d/nextcloud.ini
+RUN echo upload_max_filesize=16G >> /usr/local/etc/php/conf.d/nextcloud.ini
+RUN echo post_max_size=16G >> /usr/local/etc/php/conf.d/nextcloud.ini
 
 # At this point you meet all the dependencies to install the application
 # If is available you can skip this step and install the application from the application store
